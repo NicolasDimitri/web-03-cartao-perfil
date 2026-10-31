@@ -44,7 +44,7 @@ Um cartão de apresentação centralizado na tela, com foto, nome, descrição e
 5. No GitHub, clique em **Compare & pull request** → **Create pull request**.
 6. Um comentário automático aparece no PR com uma **tabela de requisitos**, cada um com ✅ (passou) ou ❌ (não passou) e a dica do que falta.
    Corrija, faça novo commit + `git push` e o comentário é atualizado.
-7. Com tudo ✅, clique em **Merge pull request**.
+7. Com tudo ✅, sua entrega está concluída. **O PR não será mesclado na `main`**: ele fica aberto só para a avaliação e para o instrutor revisar.
 
 ## Testar no seu computador (opcional)
 
