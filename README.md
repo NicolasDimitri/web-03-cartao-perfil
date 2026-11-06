@@ -54,4 +54,20 @@ npx playwright install --with-deps chromium   # só na primeira vez
 npm test
 ```
 
+### Testar com Docker no Linux ou WSL
+
+Com o Docker instalado e ativo (no WSL, com a integração da distribuição habilitada no Docker Desktop), rode na pasta do projeto:
+
+```bash
+bash testar.sh R5
+```
+
+O argumento `R5` seleciona só esse requisito; sem argumento, o script roda todos os testes:
+
+```bash
+bash testar.sh
+```
+
+Na primeira execução, o Docker baixa a imagem do Playwright e instala as dependências em um volume Docker. As execuções seguintes reutilizam esse volume; se `package-lock.json` mudar, as dependências são atualizadas automaticamente. Não é necessário instalar Node.js, Playwright ou Chromium no Linux/WSL.
+
 > Não altere as pastas `tests/`, `scripts/` e `.github/`.
