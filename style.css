@@ -9,13 +9,12 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     padding: 16px;
-    
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     min-width: 100vh;
     max-height: 1280px;
-    max-width: 800px;
+    
 }
 
 #botao {
