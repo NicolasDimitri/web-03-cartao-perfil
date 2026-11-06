@@ -5,7 +5,7 @@ body{
 }
 .card{
     width:300px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 18px;
     padding: 18px;
 }
