@@ -6,8 +6,8 @@ body{
 .card{
     width:300px;
     border-radius: 8px;
-    box-shadow: 16px;
-    padding: 16px;
+    box-shadow: 17px;
+    padding: 17px;
 }
 #botao{
     background-color: aquamarine;
