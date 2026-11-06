@@ -5,9 +5,9 @@ body{
 }
 .card{
     width:300px;
-    border-radius: 25px;
-    box-shadow: 25px;
-    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 15px;
+    padding: 15px;
 }
 #botao{
     background-color: aquamarine;
