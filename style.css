@@ -1,27 +1,32 @@
-body{
+body {
     margin: 0;
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card{
-    width:300px;
+
+.card {
+    width: 300px;
     border-radius: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     padding: 16px;
+    flex-direction: column 1280px;
 }
-#botao{
+
+#botao {
     background-color: aquamarine;
     padding: 50px;
     text-rendering: auto;
     text-decoration: none;
 }
-#botao1{
+
+#botao1 {
     background-color: magenta;
     padding: 50px;
     text-rendering: auto;
     text-decoration: none;
 }
-#avatar{
+
+#avatar {
     height: 80px;
     width: 80px;
     border-radius: 100%;
