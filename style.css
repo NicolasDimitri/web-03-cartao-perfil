@@ -43,7 +43,7 @@ body {
     background-color: brown;
     color: black;
     text-align: center;
-    
+
 }
 
 .avatar {
@@ -59,9 +59,10 @@ body {
 
 .links {
     display: flex;
+    row-gap: 2px;
 }
 
-.btn {
+.links .btn {
     background-color: beige;
     text-decoration: none;
     padding: 16px;
