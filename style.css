@@ -59,7 +59,9 @@ body {
 
 .links {
     display: flex;
-    row-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .links .btn {
