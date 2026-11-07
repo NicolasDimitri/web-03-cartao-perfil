@@ -1,3 +1,10 @@
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
 body {
     margin: 0;
     background-color: antiquewhite;
@@ -5,38 +12,31 @@ body {
     max-width: 800px;
     max-height: 1280px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
 }
 
 .card {
     width: 300px;
+    height: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     padding: 16px;
-    min-height: 100vh;
+    min-height: 50vh;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-;botao {
-    background-color: aquamarine;
-    padding: 50px;
-    text-rendering: auto;
-    text-decoration: none;
-
-
-;botao1 
-    background-color: magenta;
-    padding: 50px;
-    text-rendering: auto;
-    text-decoration: none;
-
-
-;avatar 
-    height: 80px;
-    width: 80px;
+.avatar {
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
