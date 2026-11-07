@@ -25,7 +25,7 @@ body {
     padding: 16px;
     min-height: 100vh;
     border: 2px solid black;
-    display:inline;
+    display: inline;
     justify-content: center;
     align-items: center;
 }
@@ -64,17 +64,20 @@ body {
     gap: 20px;
 }
 
-.links .btn {
+.btn {
     background-color: beige;
     text-decoration: none;
     padding: 16px;
     border-radius: 16px;
     display: flex;
+}
+
+.btn :hover {
+    background-color: blue;
+}
+
+:hover{
     background-color: blue;
     color: violet;
     transition: background-color 0.3s;
-}
-
-.btn :hover{
-    background-color: red;
 }
