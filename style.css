@@ -32,6 +32,7 @@ body {
 .card h1{
     background-color: aquamarine;
     color: aquamarine;
+    text-align: center;
 }
 .avatar {
     width: 100px;
